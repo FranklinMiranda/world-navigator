@@ -2,9 +2,11 @@ import React from 'react';
 import Data from './Data';
 
 function App() {
-  return  <div className="App">
-    <Data/>
-  </div>;
+  return (
+    <div className="App">
+        <Data/>
+    </div>
+  );
 }
 
-export default App
+export default App;
