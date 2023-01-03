@@ -15,6 +15,20 @@ function App() {
   }, []);
 
   console.log('Countries', countries);
+  return (
+    <div className="App">
+      {countries.map((item) => {
+        return (
+          <div className="Country">
+            <h1>{item.name.common}</h1>
+            <h2>{item.capital}</h2>
+            <h3>{item.region}</h3>
+            <h3>{item.population}</h3>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
 export default App;
