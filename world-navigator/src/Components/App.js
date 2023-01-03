@@ -24,7 +24,7 @@ console.log(region)
 
   return (
     <div className="App">
-      <NavBar />
+      <NavBar region={region} />
     </div>
   );
 }
